@@ -12,6 +12,7 @@ h1 {
     font-family: Righteous, serif;
     font-size: 50px;
     text-align: center;
+    color: black;
 }
 
 h2 {
@@ -19,9 +20,10 @@ h2 {
     font-family: Righteous, serif;
     font-size: 25px;
     text-align: center;
+    color: black;
 }
 
-.parent {
+.parent::after {
     height: 100%;
     width: 50%;
     float: right;
@@ -30,3 +32,84 @@ h2 {
     margin-right: 25px;
     opacity: 0.5;
 }
+
+.start{
+    padding:0;		
+}
+  
+.startBtn{
+    width: 500px;
+}
+
+.trivSection{ 
+    margin-top: 100px;
+    text-align: center;
+}
+
+.question, .answers{
+    font-family: Righteous, sans-serif;
+    padding: 30px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.rightAnswer, .wrongAnswer, .gameOver, .score{
+    font-family: Righteous, sans-serif;
+    padding: 30px;
+    font-size: 25px;
+    margin: 10px;
+}
+  
+/*buttons*/
+.redBtn { 
+    color: #FFFFFF; 
+    background-color: blueviolet; 
+    border-color: #000000; 
+} 
+
+  .redBtn:hover, 
+  .redBtn:focus, 
+  .redBtn:active, 
+  .redBtn.active, 
+  .open .dropdown-toggle.redBtn { 
+    color: #FFFFFF; 
+    background-color: blueviolet; 
+    border-color: #000000; 
+  } 
+   
+  .redBtn:active, 
+  .redBtn.active, 
+  .open .dropdown-toggle.redBtn { 
+    background-image: none; 
+  } 
+   
+  .redBtn.disabled, 
+  .redBtn[disabled], 
+  fieldset[disabled] .redBtn, 
+  .redBtn.disabled:hover, 
+  .redBtn[disabled]:hover, 
+  fieldset[disabled] .redBtn:hover, 
+  .redBtn.disabled:focus, 
+  .redBtn[disabled]:focus, 
+  fieldset[disabled] .redBtn:focus, 
+  .redBtn.disabled:active, 
+  .redBtn[disabled]:active, 
+  fieldset[disabled] .redBtn:active, 
+  .redBtn.disabled.active, 
+  .redBtn[disabled].active, 
+  fieldset[disabled] .redBtn.active { 
+    background-color: blueviolet; 
+    border-color: #000000; 
+  } 
+   
+  .redBtn .badge { 
+    color: blueviolet; 
+    background-color: #FFFFFF; 
+  }
+
+  .imageUrl{
+      width: 10px;
+      height: 10px;
+  }
+
+
