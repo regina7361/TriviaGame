@@ -107,9 +107,9 @@ h2 {
     background-color: #FFFFFF; 
   }
 
-  .imageUrl{
-      width: 10px;
-      height: 10px;
+  img{
+      width: 25%;
+      height: 25%;
   }
 
 
